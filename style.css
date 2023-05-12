@@ -1,0 +1,582 @@
+*
+{
+    font-family: "MiloSerifWebWO=04-Xboldlta", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: linear-gradient(296.7deg, #45108A -5.17%, #3D065F 42.6%, #200554 168.23%);
+
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header
+{
+    width: 100%;
+    height: 50px;
+    /* position: fixed; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    text-decoration: none;
+    color: #DC3DAA;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.96vw;
+    margin: 18px 22.7px;
+    flex-shrink: 0;
+}
+
+.navigation a {
+    color: #C7BCD6;
+    text-decoration: none;
+    font-size: 1.20vw;
+    font-weight: 500;
+    padding: 0;
+    margin-left: 80px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav .icon
+{
+    display: none;
+}
+
+.navigation a:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #DC3DAA;
+}
+
+section
+{
+    padding: 8.98vw 51.12px;
+    overflow: hidden;
+}
+
+.main
+{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.main h2
+{
+    color: #ffffff;
+    font-size: 5.44vw;
+    font-weight: 300;
+    line-height: 1;
+    margin-left: 50px;
+}
+
+.main p 
+{
+    color: #C7BCD6;
+    font-size: 1.3vw;
+    margin-top: -40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 40px ;
+    margin-left: 50px;
+}
+
+.detailBtn
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.088vw;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    padding: 0.408vw 3.401vw;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border-color: #C211A1;
+    position: relative;
+    left: 50px;
+}
+
+.detailBtn:hover
+{
+    background-color: #C211A1;
+}
+
+.viewDemo
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.088vw;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #C211A1;
+    display: inline-block;
+    padding: 0.408vw 3.401vw;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    margin-left: 10px;
+    position: relative;
+    left: 50px;
+}
+
+.viewDemo:hover
+{
+    background-color: #C211A1;
+}
+
+.my-svg
+{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    padding: 0;
+    position: absolute;
+    left: 49%;
+    top: 9%;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.aboutus
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    border-width:  0.61vw;
+    border-style: solid;
+    border-color: #C211A1;
+    background-size: 195%;
+    background-position: 45% top;
+    flex-shrink: 0;
+}
+
+.title
+{
+    margin-top: 30px;
+    font-size: 5.44vw;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.aboutus p
+{
+    text-align: center;
+    margin-top: 0;
+    color: #C7BCD6;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.3vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.social-icons a
+{
+    color: #ffffff;
+    font-size: 2vw;
+    padding-right: 30px;
+}
+
+.social-icons
+{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+    padding-left: 30px;
+}
+
+.social-icons a:hover
+{
+    color:#C7BCD6;
+}
+
+.email
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1vw;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    padding: 0.40vw 6vw;
+    flex-shrink: 0;
+
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border-color: #C211A1;
+}
+
+.email:hover
+{
+    background-color: #C211A1;
+}
+
+.work
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1vw;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #C211A1;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 0.40vw 3.99vw;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.work:hover
+{
+    background-color: #C211A1;
+}
+
+.contect
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
+.footer
+{
+    background-color: #2E0B56;
+    color: #ffffff;
+    padding: 2.1vw;
+    display: flex;
+    justify-content: space-between;
+    justify-content:center ;
+}
+
+.footer p
+{
+    font-size: 1vw;
+    colo
+}
+
+
+@media only screen and (max-width: 822px)
+{
+    header
+    {
+        background-color: #3D065F;
+    }
+
+    
+    .navigation a
+    {
+        display: none;
+        font-size: 3vw;
+    }
+
+    .logo
+    {
+        font-size: 4vw;
+    }
+
+    .navigation a.icon
+    {
+        float: right;
+        display: block;
+    }
+
+    nav
+    {
+        flex-grow: 0;
+    }
+    .navigation a
+    {
+        margin-left: 0;
+    }
+    .nav .icon
+    {
+        font-size: 10vw;
+    }
+    .navigation
+    {
+        margin-right: 10px;
+    }
+    
+
+    
+    .main
+    {
+        all: initial;
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main h2
+    {
+        font-size: 12vw;
+        margin-top: 100px;
+        align-self: flex-start;
+        margin-left: 6.08vw;
+        margin-top: 100px;
+    }
+
+    .main p
+    {
+        font-size: 4vw;
+        align-self: flex-start;
+        margin-left: 6.08vw;
+
+    }
+    .my-svg
+    {
+        position: static;
+        align-self: center;
+        align-items: center;
+        width: 85.23vw;
+        height: 65.77vw;
+    }
+
+    .Btns
+    {
+        display: flex;
+        margin-top: 110px;
+        flex-grow: 1;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 110px;
+    }
+
+    .detailBtn
+    {
+        position: static;
+        font-size: 2.5vw;
+        padding: 0.73vw 6.08vw;
+        margin-left: 0;
+    }
+
+    .viewDemo
+    {
+        position: static;
+        font-size: 2.5vw;
+        padding: 0.73vw 6.08vw;
+    }
+
+    .circle
+    {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .title
+    {
+        font-size: 8vw;
+    }
+
+    .aboutus p
+    {
+        font-size: 3vw;
+    }
+
+    .email
+    {
+        font-size: 2.5vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+
+    }
+
+    .work
+    {
+        font-size: 2.5vw;
+        
+    }
+
+    .social-icons a
+    {
+    font-size: 3.5vw;
+    }
+}
+
+
+@media screen and (max-width: 822px) {
+    .navigation > a:not(.icon) {
+        display: none;
+    }
+
+    .navigation.responsive 
+    {
+    background-color: #3D065F;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+    .navigation.responsive a {
+    display: block;
+    margin: 10px;
+    }
+}
+
+  /* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px)
+{
+    .main
+    {
+        all: initial;
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main h2
+    {
+        margin-top: 100px;
+        padding: 0;
+        align-self: flex-start;
+    }
+    
+    .main p
+    {
+        align-self: flex-start;
+    }
+
+}
+
+@media only screen and (max-width: 481px)
+{
+    .main h2
+    {
+        margin-bottom: 50px;
+    }
+    .aboutus p 
+    {
+        width:120%;
+    }
+}
+
+@media only screen and (max-width: 322px)
+{
+    .main h2
+    {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 361px)
+{
+    .main h2
+    {
+        margin-bottom: 35px;
+    }
+    .Btns
+    {
+        margin-top: 60px;
+    }
+
+    .aboutus p
+    {
+        width: 90%;
+    }
+
+    .work
+    {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .aboutus p 
+    {
+        width:120%;
+    }
+}
+
+@media only screen and (max-width: 240px)
+{
+    .aboutus p
+    {
+        width: 120%;
+    }
+    
+    .work
+    {
+        font-size: 0.50vw;
+    }
+}
+
+@media only screen and (max-width: 376px)
+{
+    .main h2
+    {
+        margin-bottom: 50px;
+    }
+
+    .aboutus p
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 415px)
+{
+    .main h2
+    {
+        margin-bottom: 50px;
+    }
+    .aboutus p 
+    {
+        width: 100%;
+    }
+}
